@@ -1,8 +1,67 @@
-## Hi there 👋
+# Axodus
 
-Welcome to Axodus Finance
-The first DAAS (Defi As A Service) ETF system fully focused on the investor.
-We are investment managers who will propose and subsequently perform investments in all segments of the Crypto market. We will create various income streams and distribute it to our investors. Together, all leaders, investors, and participants will build a powerful and lasting income system. Our goal may seem a little bold at first, but we understand that.
- 
-After all, just a quick Google search on the subject and you will notice the large amount of fraudulent or unsustainable projects. We will operate in full transparency and never leave our investors any doubt about our actions or, more importantly, about the safety or their funds.
-Our professionals will manage the daily investment activities and our unique multi-DAO system will ensure every investor and participant's best interest is always at the forefront of any decision. It will be through these efforts that we will bring comfort and convenience to our investors. Get ready to enjoy the income from your investment in Axodus.
+**Governed, modular infrastructure for decentralized organizations, digital
+economies, and accountable coordination.**
+
+Axodus is an ecosystem of independent repositories organized around explicit
+responsibilities. It connects governance, business workflows, treasury and
+DeFi research, education, trading infrastructure, digital marketplaces,
+AI-assisted operations, security, and public accountability.
+
+The ecosystem is designed as a federation of bounded nuclei. Each nucleus owns
+its domain, interfaces, evidence, and delivery lifecycle while coordinating
+through shared governance principles and reviewable contracts.
+
+## What guides Axodus
+
+- **Governance first:** decisions, permissions, and execution boundaries should be visible and reviewable.
+- **Modular architecture:** products and services remain independently maintainable and composable.
+- **Accountability:** important actions should produce evidence, status, and traceable outcomes.
+- **Responsible automation:** AI agents may assist operations while humans and governed systems retain authority.
+- **Risk-aware development:** financial and execution capabilities require separate validation, security, and governance gates.
+- **Clear communication:** public claims must distinguish current evidence from prototypes, plans, and research.
+
+## Ecosystem nuclei
+
+| Area | Responsibility | Repository |
+| --- | --- | --- |
+| Core | Shared architecture, vocabulary, federation, and system boundaries | [`Axodus/Core`](https://github.com/Axodus/Core) |
+| Governance | Constitutional and local governance coordination | [`Axodus/Governance`](https://github.com/Axodus/Governance) |
+| Documentation | Canonical public knowledge, standards, and technical documentation | [`Axodus/Documentation`](https://github.com/Axodus/Documentation) |
+| AxodusAPP | Ecosystem application shell and operational interfaces | [`Axodus/AxodusAPP`](https://github.com/Axodus/AxodusAPP) |
+| ACS | AI-assisted control, agent, and operational workflows | [`Axodus/ACS`](https://github.com/Axodus/ACS) |
+| Business | Request qualification, services, and delivery coordination | [`Axodus/Business`](https://github.com/Axodus/Business) |
+| BBA Agency | Blockchain business, communication, and claim-reviewed growth services | [`Axodus/BBA-Agency`](https://github.com/Axodus/BBA-Agency) |
+| Academy | Education, onboarding, and participation models | [`Axodus/Academy`](https://github.com/Axodus/Academy) |
+| DeFi | Modular DeFi, treasury, vault, and strategy research | [`Axodus/Defi`](https://github.com/Axodus/Defi) |
+| DEX | Exchange, liquidity, routing, and execution architecture | [`Axodus/Dex`](https://github.com/Axodus/Dex) |
+| Trading | Trading systems, risk controls, and strategy lifecycle | [`Axodus/Trading`](https://github.com/Axodus/Trading) |
+| Marketplace | Products, services, assets, and commercial exchange | [`Axodus/Marketplace`](https://github.com/Axodus/Marketplace) |
+| Mining | Mining, validation, infrastructure, and reward accounting | [`Axodus/Mining`](https://github.com/Axodus/Mining) |
+| Lottery | Governed lottery and verifiable draw research | [`Axodus/Lottery`](https://github.com/Axodus/Lottery) |
+
+## How to explore
+
+Start with the [`Documentation`](https://github.com/Axodus/Documentation)
+repository for the governed ecosystem overview, architecture, terminology,
+security guidance, and status interpretation. Visit a nucleus repository for
+its implementation, local constraints, validation commands, and delivery
+history.
+
+Repository visibility does not imply equal maturity or production readiness.
+Axodus includes governed documentation, independent implementations, research,
+and prototype or read-only surfaces. Financial execution, treasury operations,
+wallet signing, autonomous governance, token issuance, contract writes, and
+other sensitive capabilities require explicit evidence and authorization in
+their owning domains.
+
+## Participation
+
+Contributions should begin in the repository that owns the relevant domain.
+Read its `README`, `AGENTS.md`, contribution guidance, and local instructions
+before opening an issue or proposing a change. Cross-repository work should
+identify the owning nucleus, consumers, integration contract, and acceptance
+criteria.
+
+Axodus values clarity over hype, accountability over opacity, review over
+unchecked automation, and sustainable utility over speculation.

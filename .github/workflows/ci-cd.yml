@@ -1,0 +1,50 @@
+name: Validate organization profile
+
+permissions:
+  contents: read
+
+on:
+  push:
+    paths:
+      - README.md
+      - profile/**
+      - .github/workflows/ci-cd.yml
+  pull_request:
+    paths:
+      - README.md
+      - profile/**
+      - .github/workflows/ci-cd.yml
+  workflow_dispatch:
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Validate required profile files
+        shell: bash
+        run: |
+          test -s README.md
+          test -s profile/README.md
+
+      - name: Reject unsupported financial claims
+        shell: bash
+        run: |
+          if grep -Eini \
+            'guaranteed (profit|return|apy|income)|risk[- ]free (yield|return)|fixed (profit|return)' \
+            README.md profile/README.md; then
+            echo 'Unsupported financial claim detected in organization profile.'
+            exit 1
+          fi
+
+      - name: Check Markdown whitespace
+        shell: bash
+        run: |
+          if grep -En '[[:blank:]]+$' README.md profile/README.md; then
+            echo 'Trailing whitespace detected in organization profile files.'
+            exit 1
+          fi
