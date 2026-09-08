@@ -16,6 +16,13 @@ Product code, contracts, services, applications, and domain documentation remain
 in their respective repositories. The canonical public knowledge corpus is
 maintained in [`Axodus/Documentation`](https://github.com/Axodus/Documentation).
 
+## Current portfolio review
+
+The latest bounded organization summary is the
+[`2026-09-07 Weekly Portfolio Review`](WEEKLY_PORTFOLIO_REVIEW_2026-09-07.md).
+It records portfolio direction and known validation gaps without implying
+production or execution authority.
+
 ## Communication standard
 
 Organization-facing material should be written in clear English and should

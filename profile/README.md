@@ -48,6 +48,9 @@ security guidance, and status interpretation. Visit a nucleus repository for
 its implementation, local constraints, validation commands, and delivery
 history.
 
+The current bounded portfolio summary is available in the
+[`2026-09-07 Weekly Portfolio Review`](../WEEKLY_PORTFOLIO_REVIEW_2026-09-07.md).
+
 Repository visibility does not imply equal maturity or production readiness.
 Axodus includes governed documentation, independent implementations, research,
 and prototype or read-only surfaces. Financial execution, treasury operations,
