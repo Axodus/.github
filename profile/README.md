@@ -58,6 +58,16 @@ wallet signing, autonomous governance, token issuance, contract writes, and
 other sensitive capabilities require explicit evidence and authorization in
 their owning domains.
 
+## Development snapshot
+
+[![Axodus portfolio development snapshot](assets/portfolio-development-snapshot-2026-09-07.png)](../PORTFOLIO_PROGRESS_2026-09-07.md)
+
+The latest development snapshot covers 14 nuclei with comparable evidence and
+reports a **56.8%** equal-weight functional-completeness baseline. It describes
+documented implementation and validation evidence, not production readiness,
+financial authority, or execution status. [Read the methodology and bounded
+portfolio context.](../PORTFOLIO_PROGRESS_2026-09-07.md)
+
 ## Participation
 
 Contributions should begin in the repository that owns the relevant domain.

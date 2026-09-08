@@ -23,6 +23,13 @@ The latest bounded organization summary is the
 It records portfolio direction and known validation gaps without implying
 production or execution authority.
 
+## Portfolio development snapshot
+
+The public [Portfolio Development Snapshot](PORTFOLIO_PROGRESS_2026-09-07.md)
+provides a bounded, evidence-based view of the assessed Axodus nuclei. It is a
+development-evidence artifact and must not be interpreted as a production,
+financial, or execution authorization.
+
 ## Communication standard
 
 Organization-facing material should be written in clear English and should
