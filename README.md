@@ -19,7 +19,7 @@ maintained in [`Axodus/Documentation`](https://github.com/Axodus/Documentation).
 ## Current portfolio review
 
 The latest bounded organization summary is the
-[`2026-09-07 Weekly Portfolio Review`](WEEKLY_PORTFOLIO_REVIEW_2026-09-07.md).
+[`2026-09-11 Weekly Portfolio Review`](WEEKLY_PORTFOLIO_REVIEW_2026-09-11.md).
 It records portfolio direction and known validation gaps without implying
 production or execution authority.
 

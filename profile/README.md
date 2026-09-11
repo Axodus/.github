@@ -49,7 +49,7 @@ its implementation, local constraints, validation commands, and delivery
 history.
 
 The current bounded portfolio summary is available in the
-[`2026-09-07 Weekly Portfolio Review`](../WEEKLY_PORTFOLIO_REVIEW_2026-09-07.md).
+[`2026-09-11 Weekly Portfolio Review`](../WEEKLY_PORTFOLIO_REVIEW_2026-09-11.md).
 
 Repository visibility does not imply equal maturity or production readiness.
 Axodus includes governed documentation, independent implementations, research,
